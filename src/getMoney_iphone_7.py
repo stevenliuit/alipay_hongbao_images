@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # created by steven.liu
-# 2016.12.23
+# 2016.12.26
 from PIL import Image
 im = Image.open('IMG_1820.PNG')
 
