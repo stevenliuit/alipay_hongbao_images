@@ -30,6 +30,7 @@ pasteImg(startY, 0)
 for index in range(1,maxLineNumber):
     pasteImg( startY, index )
 
-
+region = (205, 644, 545, 978)
+im = im.crop(region)
 im.save('IMG_1820.dealed.jpg')
 #im.show()
